@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-MAINTAINER Eduardo Bizarro <edbizarro@gmail.com>
+MAINTAINER Roj Vroemen <me@rojvroemen.com>
 
 # Set correct environment variables
 ENV HOME /root
@@ -21,6 +21,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
     python-software-properties \
     build-essential \
     curl \
+    ssh \
     git \
     unzip \
     mcrypt \
